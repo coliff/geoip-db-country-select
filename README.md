@@ -1,8 +1,13 @@
 # geoip-db-country-select
 
-Auto select country from a dropdown using the free GEOIP DB service and jQuery
+A simple auto-select country from a dropdown using the free GEOIP DB service and jQuery
 
 DEMO: [https://coliff.github.io/geoip-db-country-select/](https://coliff.github.io/geoip-db-country-select/)
+
+
+## Made with:
+
+jQuery: [https://jquery.com/](https://jquery.com/)
 
 Geoip-db service: [https://geoip-db.com/](https://geoip-db.com/)
 
