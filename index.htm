@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GEOIP DB - jQuery example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>Country: <span id="country"></span>
+    <script>
+	$.ajax({
+		url: "https://geoip-db.com/jsonp",
+		jsonpCallback: "callback",
+		dataType: "jsonp",
+		success: function( location ) {
+			$('#country').html(location.country_name);
+		}
+	});		
+    </script>
+</body>
+</html>
