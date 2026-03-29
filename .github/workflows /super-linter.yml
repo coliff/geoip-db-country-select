@@ -1,5 +1,5 @@
 ---
-name: Lint Code Base
+name: Super Linter
 
 on:
   push:
